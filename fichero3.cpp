@@ -8,10 +8,30 @@ int main(){
     ifstream fichero("miFichero.txt");
     string mensaje;
     int salir;
-    getline(fichero,mensaje);
-    cout<<"La primera linea dice: ";
-    cout<<mensaje;
-    cin>>salir;
- 
-    
+    cout<<"el texto dice";
+    while (fichero.eof()!=1){
+       getline(fichero,mensaje);
+       if(fichero.eof()!=1){
+       cout<<mensaje;
+       cout<<endl;
     }
+}
+    cin>>salir;
+    
+}
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                

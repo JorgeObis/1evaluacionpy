@@ -21,8 +21,10 @@ int main(){
     }  
     cout<<"La suma vale"<<endl;
     for(int cont=0;cont<5;cont++){
+            
+            
       suma[cont]= vect1[cont]+vect2[cont];
-      cout<<suma[cont]<<",";
+      cout<<suma[cont]<<"];[";
       
     }
     cout<<"Presiona para salir y luego Enter ";

@@ -1,21 +1,27 @@
-//Matrices
+
 #include<iostream>
 using namespace std;
+
 int main(){
-    int matriz [3][3];
-    int fila,col;
+    int vect1[5];
+    int vect2[5];
+    int vect_t[5];
     int salir;
-    for(fila=0;fila<3;fila++){
-        for(col=0;col<3;col++){
-          cout<<"matriz["<<fila<<"]["<<col<<"]"<<cout<<col<<"]";
-          cin>>matriz[fila][col];
-              
-                                         
-              }               
-                          
-          }
-    cout<<endl<<"Hemos acabado";
+    //Rellenamos los vectores
+       for(int cont=0;cont<5;cont++){
+       cout<<"vect["<<cont<<"]= ";
+       cin>>vect1[cont]; 
+    }
+    cout<<"Presiona para salir y luego Enter ";
+    cin>>salir;3
     return 0;
     
     
-    }
+}
+      
+               
+                          
+    
+    
+    
+    
